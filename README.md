@@ -26,9 +26,8 @@ python setup.py install
 ```
 
 ## Windows
-
- - Install [mingw](http://www.mingw.org/) compiler
- - Add mingw to your PATH
+The following instructions should build the package in all Windows releases 32 & 64 bit (tested only on Windows 10 pro 64bit) 
+ - Install [mingwpy](https://github.com/mingwpy/mingwpy) compiler 
  - In PYTHONPATH\Lib\distutils create a file called distutils.cfg and add these lines:
  
 ```
@@ -36,8 +35,6 @@ python setup.py install
 compiler=mingw32
 ```
 
- - Install gcc: ```mingw-get.exe install gcc```
- - Install zlib [zlib](http://www.zlib.net/)
  - ```python setup.py install```
 
 
