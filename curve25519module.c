@@ -172,7 +172,7 @@ curve25519_functions[] = {
     PyMODINIT_FUNC
     initaxolotl_curve25519(void)
     {
-        (void)Py_InitModule4_64("axolotl_curve25519", curve25519_functions);
+        (void)Py_InitModule("axolotl_curve25519", curve25519_functions);
     }
 
 #endif
