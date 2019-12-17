@@ -24,5 +24,6 @@ setup(
     ext_modules = [module_curve],
     author_email='tare2.galal@gmail.com',
     description='curve25519 with ed25519 signatures, used by libaxolotl',
-    platforms='any'
+    platforms='any',
+    define_macros=[('MS_WIN64',None)]
 )
